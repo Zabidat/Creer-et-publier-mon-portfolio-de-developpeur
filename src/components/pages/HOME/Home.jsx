@@ -1,24 +1,41 @@
+import  "./Home.css"; 
+import compCollapse from "../../../datas/compCollapse.json"; 
 import Banner from "../../Banner/Banner"; 
+import About from "../../About/About"; 
 import imgBanner from "../../../assets/banner/Image-Banniere.webp"; 
+import logo from "../../../assets/logo/Zabidat-logo.webp"; 
+import Collapse from "../../Collapse/Collapse"; 
+ 
 
-
+// Au 
 function Home () {
      
     return (
 
-        <section className="">
+         <div className="container-home">
 
-            <div className="container-home">
+                <Banner Texte="Zabidat Abdallah: Développeuse web" image={imgBanner}></Banner>
+                 
+                <About image={logo}></About>
 
-                    <Banner Texte="Zabidat Abdallah : Développeuse web" image={imgBanner}></Banner>
+                <section className="skills-section">
+                    <h2 className="title-skills-section">Compétences</h2> 
+                    <hr></hr> 
+                        <div className="collapse-in-home-page"> 
+                                {/* Title and content of Competences Collapse */}
+                            
 
-                    <div className=""> 
+                                { compCollapse.map((text) => (
 
-                    </div>
+                                     <Collapse title ={text.title}  content= {text.content}  key={text.id}></Collapse>
+                                 ))} 
 
-            </div>
+                        </div>
 
-        </section>
+                </section>
+
+        </div> 
+
     );
 }
 

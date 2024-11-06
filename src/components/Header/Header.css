@@ -37,11 +37,11 @@ img {
 }
 
 
-@media screen and (max-width: 992px) {
+/*@media screen and (max-width: 992px) {
     .header-property {
         padding: 50px 20px 20px 40px; 
     }
-}
+} */ 
 
 .nav-header{
     display: flex;
@@ -69,11 +69,11 @@ img {
     }
 }
 
-@media screen and (max-width: 991px) {
+/*@media screen and (max-width: 991px) {
     .nav-header  .link-navbar {
         padding: 15px 20px 0; 
     }
-}
+} */
 
 .nav-header .navbar-link-active:hover
 { 

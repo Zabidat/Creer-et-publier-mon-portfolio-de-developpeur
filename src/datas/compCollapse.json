@@ -1,0 +1,55 @@
+
+
+[
+    {
+      "id": "1",
+      "title": "Stacks",
+      "content": [  "HTML ",
+                   " CSS",
+                    "Sass", 
+                    "SEO", 
+                   "JavaScript", 
+                   " ReactJS",
+                    "React Routeur",
+                   " NodeJS",
+                    "Express",
+                    "MongoDB",
+                    "Bcrypt"
+                ]
+    },
+    {
+      "id": "2",
+      "title": "Skills",
+      "content":[  "Dynamique",
+      " Rigoureuse",
+       "Écoute attentive", 
+       "Esprit d'équipe", 
+      "Leadership", 
+      " Organisée",
+       "Polyvalente",
+      " Persévérante",
+       "Engagée",
+       "Reactive",
+       "Autonomie",
+       "Curiosité"
+        ]
+    },
+    {
+      "id": "3",
+      "title": "Outils",
+      "content": [  "Visual Studio Code ",
+      " GitHub",
+       "Validator HTML W3Cs", 
+       "Validator CSS W3C", 
+      "Devtools (Chrome, Firefox)", 
+      "Google Lighthouse",
+       "GTmetrix",
+      "Wave Evaluation Tool",
+       "Trello",
+       "Wakelet",
+       "Figma"
+        ]
+    }
+   
+] 
+  
