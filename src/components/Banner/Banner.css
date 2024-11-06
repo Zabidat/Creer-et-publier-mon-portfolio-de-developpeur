@@ -32,22 +32,17 @@
 
 .banner-section .title-banner {
     color: #380101;
-}
-
-@media screen and (max-width: 768px) {
-    .banner-container .title-banner {
-        font-size: 28px;
-    }
-}
+} 
 
 @media screen and (max-width: 992px) {
     .banner-container .title-banner {
         width: 90%;
     }
 }
-.banner-container .title-banner {
+
+.banner-container .title-banner { 
     font-family: Montserrat, sans-serif;
-    font-size: 36px;
+    font-size: 30px;
     font-weight: 600;
     left: 50%;
     position: absolute;
@@ -55,7 +50,6 @@
     top: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    width: 100%;
+    width: 100%; 
 }
-
-
+ 
