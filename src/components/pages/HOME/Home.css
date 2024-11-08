@@ -1,3 +1,4 @@
+
 .skills-section{
     background-color: #d5c5c5;
     border-radius: 20px;
@@ -5,28 +6,6 @@
     margin: 50px;
     padding: 50px; 
 } 
-
-@media screen and (max-width: 768px) {
-    .skills-section {
-        height: auto;
-        margin: 20px;
-        padding: 50px 30px;
-    }
-} 
-
-.skills-section .title-skills-section {
-    color: #000; 
-    font-family: Montserrat, sans-serif;
-    font-weight: 600; 
-    text-align: center;  
-} 
-
-@media screen and (max-width: 768px) {
-    .skills-section .title-skills-section {
-        font-size: 26px;
-    }
-} 
-
 
 .skills-section hr {
     border-color: #c7ff06;
@@ -40,10 +19,45 @@
     justify-content: space-around; 
 }
 
-@media screen and (max-width: 768px) {
-    .collapse-in-home-page {
-        display: flex;
-        flex-direction: column;
+
+/* Le code ci-dessous correspond à la version responsive uniquement */ 
+/* Small devices (phones, less than 768px) */ 
+
+@media screen and (max-width: 576px) {
+    .skills-section {
+        height: auto;
+        margin: 20px; 
+        padding: 50px 30px;
     }
 } 
 
+.skills-section .title-skills-section {
+    color: #000; 
+    font-family: Montserrat, sans-serif;
+    font-size: 34px; 
+    font-weight: 500; 
+    text-align: center;  
+} 
+
+@media screen and (max-width: 576px) {
+    .skills-section .title-skills-section {
+        font-size: 26px; 
+    }
+} 
+
+@media screen and (max-width: 576px) {
+    .collapse-in-home-page {
+        display: flex;
+        flex-direction: column; 
+    }
+} 
+
+/****** Media queries ***********/
+/* Medium devices (tablets, less/equal than 1024px) */
+ 
+@media screen and (max-width: 1024px){
+    .skills-section {
+        margin: 50px 20px;
+        padding : 50px 20px 
+    } 
+} 

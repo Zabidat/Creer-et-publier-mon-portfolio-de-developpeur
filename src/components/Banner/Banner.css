@@ -2,21 +2,14 @@
     padding: 80px 150px;
 }
 
-@media screen and (max-width: 768px) {
-    .banner-section {
-        padding: 40px 20px;
-    }
-} 
-
-/*@media screen and (max-width: 992px) {
-    .banner-section {
-        padding: 80px 100px;
-    }
-}*/ 
-
 .banner-container{
     position: relative;
     height: 200px;
+}
+
+.banner-section .img-banner {
+      /* Diminue la luminosité*/  
+      filter: brightness(90%);   
 }
 
 .banner-container .img-banner {
@@ -25,24 +18,17 @@
     height: 100%;
     /*L'image s'adaptera au dimension donnée */ 
     object-fit: cover;
-    width: 100%; 
-    /* Diminue la luminosité*/  
-    filter: brightness(90%);
-}
-
-.banner-section .title-banner {
-    color: #380101;
+    width: 100%;  
 } 
 
-@media screen and (max-width: 992px) {
-    .banner-container .title-banner {
-        width: 90%;
-    }
-}
+.banner-section .title-banner {
+    color: #c7ff06;  
+}  
 
-.banner-container .title-banner { 
+.banner-container .title-banner {
+
     font-family: Montserrat, sans-serif;
-    font-size: 30px;
+    font-size: 38px;
     font-weight: 600;
     left: 50%;
     position: absolute;
@@ -51,5 +37,25 @@
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     width: 100%; 
+
+} 
+
+/* Le code ci-dessous correspond à la version responsive uniquement */ 
+
+@media screen and(max-width: 1024){
+    .banner-section {
+        width: 90%; 
+    }
 }
- 
+
+@media screen and (max-width: 576px) {
+    .banner-container .title-banner {
+      font-size: 28px;
+    } 
+}  
+
+@media screen and (max-width: 576px) {
+    .banner-section {
+        padding: 40px 20px;
+    }
+}  

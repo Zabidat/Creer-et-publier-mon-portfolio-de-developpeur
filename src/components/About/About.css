@@ -5,13 +5,15 @@
     padding: 50px 100px;
 }
 
-@media screen and (max-width: 767px) {
+
+/* Le code ci-dessous correspond à la version responsive uniquement */ 
+@media screen and (max-width: 576px) {
     .about-section {
         padding: 50px 10px;
     }
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1024px) {
     .about-section {
         padding: 50px;
     }
@@ -24,7 +26,7 @@
     text-align: center; 
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 576px) {
     .about-section .about-section-title {
         font-size: 26px;
     }
@@ -41,7 +43,7 @@
     flex-direction: row;
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1024px) {
     .about-portrait-and-content {
         align-items: center;
         display: flex;
@@ -55,7 +57,7 @@
     margin-right: 150px;
 } 
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1024px) {
     .about-portrait-and-content .portrait-and-logo-cv {
         margin-right: 0;
     }
@@ -97,7 +99,7 @@
     flex-direction: column;
 } 
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1024px) {
     .about-portrait-and-content .about-button-and-content {
         align-items: center;
     }
@@ -110,7 +112,7 @@
     width: 80%; 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     .about-portrait-and-content .about-button-and-content .about-content {
         font-size: 16px;
     }
@@ -127,17 +129,17 @@
 } 
 
 .about-portrait-and-content .about-button-and-content .about-content p span {
-    color: #b85e5e;
+    color: #000;
     font-weight: 400;
 }
 
 .about-portrait-and-content .about-button-and-content .about-content p .about-link-training-and-contact{
-    color: #b85e5e;
-    font-weight: 400; 
+    color: #000;
+    font-weight: 600; 
 }
 
 .about-portrait-and-content .about-button-and-content .about-content p i {
-    color: #b85e5e;
+    color: #000;
     font-weight: 400;  
 }
 
@@ -161,7 +163,7 @@
     width: 200px;
 }
  
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 576px) {
     .about-portrait-and-content .about-button-and-content .button-link-in-about-section {
         width: 180px;
         font-size: 18px;

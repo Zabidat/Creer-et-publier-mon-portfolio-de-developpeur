@@ -1,20 +1,7 @@
 
 .button-collapse-in-home-page {
     width: 28%;
-}
-
-@media screen and (max-width: 767px) {
-     .button-collapse-in-home-page {
-        padding-bottom: 20px;
-        width: 100%;
-    }
 } 
-
-/* @media screen and (max-width: 991px) {
-    .collapse-in-home-page .button-collapse-in-home-page {
-        width: 30%;
-    }
-} */
 
 .collapse {
     background-color: #fff;
@@ -23,12 +10,6 @@
 
 .collapse .title-in-collapse:hover {
     cursor: pointer;
-} 
-
-@media screen and (max-width: 767px) {
-    .collapse .title-in-collapse {
-        font-size: 18px;
-    }
 } 
 
 .collapse .title-in-collapse {
@@ -58,16 +39,9 @@
 	transition: 0.4s ease-in-out; 
 } 
 
-@media screen and (max-width: 767px) {
-    .collapse .title-in-collapse .arrow {
-        height: 10px;
-        width: 18px;
-    }
-} 
-
 .collapse .collapse-content {
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 600;
     line-height: 24px;
     width: 200px; 
 } 
@@ -81,3 +55,47 @@
     padding-top: 5px;
 } 
 
+/* Le code ci-dessous correspond à la version responsive uniquement */ 
+ 
+/* @media screen and (max-width: 1024px){
+    .collapse .collapse-content {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px;
+        width: 200px; 
+    } 
+} 
+
+@media screen and(max-width: 576px){
+    .collapse .collapse-content { 
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 24px;
+        width: 200px; 
+    } 
+}  */
+
+@media screen and (max-width: 576px) {
+    .collapse .title-in-collapse .arrow {
+        height: 10px;
+        width: 18px;
+    }
+} 
+
+@media screen and (max-width: 576px) {
+    .collapse .title-in-collapse {
+        font-size: 18px;
+    }
+} 
+
+@media screen and (max-width: 1024px) {
+    .button-collapse-in-home-page {
+       width: 30%; 
+   }
+} 
+ 
+@media screen and (max-width: 576px) {
+    .button-collapse-in-home-page {
+       width: 100%; 
+    }
+} 

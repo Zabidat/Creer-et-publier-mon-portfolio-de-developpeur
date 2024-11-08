@@ -12,7 +12,7 @@ function App() {
      
     {/*  Listes des routes */}  
     <BrowserRouter>
-
+ 
       <Header /> 
 
       <main>
@@ -25,6 +25,7 @@ function App() {
 
               <Route index element={<Home />}/> 
 
+ 
             </Route>
 
         </Routes> 

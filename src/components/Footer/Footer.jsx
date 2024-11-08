@@ -16,9 +16,7 @@ function Footer (){
                     <p className="contact-informations">
                         Du Lundi au Vendredi de 8h00 à 18h00
                     </p>
-                    <p className="contact-informations">
-                        07 66 01 29 26 
-                    </p>
+                   
                     <p className="contact-informations"> 
                         Région Auvergne-Rhône-Alpes, France  
                     </p>

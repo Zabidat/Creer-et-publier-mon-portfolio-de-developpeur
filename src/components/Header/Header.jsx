@@ -14,8 +14,8 @@ function Header (){
             <nav className="nav-header">
                  
                  <Link  to="/"  className="navbar-link-active link-navbar">Accueil</Link>
-                 <Link to="/Portfolio" className="navbar-link-active link-navbar">Portfolio</Link>
-                 <Link to ="/Contact" className="navbar-link-active  link-navbar">Contact</Link>
+                 <Link to="/#Projets" className="navbar-link-active link-navbar">Projets</Link>
+                 <Link to ="/#Contact" className="navbar-link-active  link-navbar">Contact</Link>
 
             </nav> 
 

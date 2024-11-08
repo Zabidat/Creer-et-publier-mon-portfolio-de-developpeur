@@ -1,0 +1,167 @@
+[
+    {
+      "id": "project1",
+      "title": "Booki",
+      "category": "HTML",
+      "cover": "../assets/projects/booki/cover.webp",
+      "alt": "Photo d'un hébergement du site de Booki",
+      "description": "Vous débutez une alternance en tant que développeur web au sein de la start-up Booki, et vous travaillez en étroite collaboration avec Sarah la CTO, et Loïc l'UI designer. L’entreprise souhaite développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix. Vous êtes chargé d'intégrer l'interface du site avec du code HTML et CSS. Cette interface devra être responsive et respectée la maquette fournie sur Figma.",
+      "mission": "Créez la page d'accueil d'une agence de voyage avec HTML & CSS.",
+      "competences": [
+        "Installer un environnement de développement front-end",
+        "Implémenter une interface responsive avec HTML et CSS.",
+        "Intégrer du contenu conformément à une maquette avec HTML et CSS."
+      ],
+      "realisation": "À travers différentes ressources fournies par internet et par les cours, j'ai pu acquérir différentes compétences qui m'ont permis de réaliser ce projet. J'ai dans un premier temps appris à comprendre comment était réalisée une maquette sur Figma. J'ai ensuite contruit tout le squelette HTML du site. J'ai aussi appris à utiliser Flexbox (avec notamment Flexbox Froggy) qui m'a permis de réaliser l'essentiel de la mise en page CSS du site. J'ai découvert comment intégrer des medias quieries pour permettre la réalisation du CSS de façon responsive. J'ai finalement vu comment versionner mon code avec Git, et comment le sauvegarder sur GitHub.",
+      "tags": ["HTML", "CSS", "Responsive", "VSCode", "Figma"],
+      "pictures": [
+        "../assets/projects/booki/mock0.webp",
+        "../assets/projects/booki/mock1.webp",
+        "../assets/projects/booki/mock2.webp",
+        "../assets/projects/booki/mock3.webp",
+        "../assets/projects/booki/mock4.webp",
+        "../assets/projects/booki/mock5.webp",
+        "../assets/projects/booki/mock6.webp",
+        "../assets/projects/booki/mock7.webp"
+      ],
+      "site": "https://zabidat.github.io/Project_Booki/",
+      "github": "https://github.com/Zabidat/Project_Booki"
+    },
+  
+    {
+      "id": "project2",
+      "title": "Nina Carducci",
+      "category": "SEO",
+      "cover": "../assets/projects/nina-carducci/cover.webp",
+      "alt": "Photo de mariage prise par Nina Carducci",
+      "description": "Vous êtes développeur freelance, et vous décidez de proposer vos services d’optimisation SEO à de nouveaux clients. Nina répond positivement à votre demande en vous demandant une optimisation pour son site de photographe. Pour réaliser votre mission, vous allez donc : faire une optimisation globale du site, tant sur les performances que sur le SEO, mettre en place le référencement local en utilisant Schema.org, ajouter les metas pour les réseaux sociaux, faire les modifications liées à l’accessibilité du site, et produire un rapport d’intervention détaillé à destination de Nina pour présenter toutes vos actions/optimisations et leur impact. Dans ce rapport, vous fournirez les performances du site avant et après optimisation (en vous basant sur des audits Lighthouse pour les performances, et sur des audits Wave pour l’accessibilité), ainsi que la liste des modifications que vous avez apporté au site. À la demande de Nina, vous débuggerez le code, soit: la navigation dans la modale de la galerie entre images précédente et suivante ne fonctionne pas, et lorsque l’on change de filtre pour afficher les images, on ne voit pas quelle catégorie est sélectionnée (celle-ci devrait avoir la couleur dorée en fond comme pour le filtre par défaut).",
+      "mission": "Débugger et optimiser le site web d'une photographe pour améliorer ses performances, son référencement SEO et son accessibilité, en utilisant des outils comme Lighthouse et Wave.",
+      "competences": ["Optimiser la performance d'un site web."],
+      "realisation" : "J'ai dans un premier temps réalisé un audit préalable (avant toutes interventions) avec l'outil Google Lighthouse en version mobile et desktop, pour ainsi voir les scores du site à la fois en matière de performances, de SEO, d'accessibilité et de bonnes pratiques. J'ai aussi testé préalablement le site avec l'outil Wave. Suite à ces audits préalables, j'ai pu voir ce qu'il fallait modifier, améliorer ou encore optimiser. Pour améliorer l'accessibilité j'ai ajouté l'attribut “alt“ à l'ensemble des images, j'ai mis en place les “hn“, j'ai ajouté les balises sémantiques au code html (<header>, <nav>...), j'ai créé un footer (car le site n'en avait pas initialement) en mettant les coordonnées de contact de Nina dedans, j'ai ajouté l'attribut “for“ aux balises <label> du formulaire de contact, et j'ai modifié la couleur du texte des filtres pour améliorer le contraste. Pour améliorer les performances du site et son optimisation SEO, j'ai fait différentes modifications: ajout de la balise <meta description>, minification des fichiers CSS et JavaScript... Mais ce qui a significativement amélioré les performances et le SEO du site c'est l'optimisation des images: redimensionnement, compression, ajout de “width“ et “height“ explicite, modification du nom de chaque fichier image... J'ai aussi ajouté le référencement local: ajout de la balise <title> et <meta description>, et pour améliorer le référencement dans les recherches locales, j’ai ajouté dans le <head> de la page HTML des données structurées (Type FAQPage et Type LocalBusiness) fournies par Schema.org. J'ai aussi mis des metatags dans le <head> du fichier index.html, avec l'ajout de l’Open Graph pour Facebook et des Twitter cards, pour ainsi améliorer l'apparence des liens du site, lorsque ceux-ci seront partagés par les utilisateurs sur Facebook ou Twitter. J'ai débuggé le code comme à la demande de Nina, et j'ai réalisé un cahier de recette dans le rapport d'intervention pour détailler les fonctionnalités débuggées et leur statut. J'ai finalement refait un audit lighthouse et testé le site avec Wave, après avoir effectué l'ensemble de ces modifications et optimisations. J'ai rempli le rapport d'intervention en détaillant tout ce que j'avais fait sur le site de Nina, et en fournissant les rapports d'audit avant et après optimisation.",
+      "tags": ["HTML", "CSS", "JavaScript", "Responsive", "SEO", "Lighthouse", "Wave", "Rich Snippets", "GitHub"],
+      "pictures": [
+        "../assets/projects/nina-carducci/mock0.webp",
+        "../assets/projects/nina-carducci/mock1.webp",
+        "../assets/projects/nina-carducci/mock2.webp",
+        "../assets/projects/nina-carducci/mock3.webp",
+        "../assets/projects/nina-carducci/mock4.webp",
+        "../assets/projects/nina-carducci/mock5.webp",
+        "../assets/projects/nina-carducci/mock6.webp",
+        "../assets/projects/nina-carducci/mock7.webp"
+      ],
+      "site": "https://zabidat.github.io/Nina-Carducci/", 
+      "github": "https://github.com/Zabidat/Nina-Carducci"
+    },
+
+    {
+      "id": "project3",
+      "title": "Sophie Bluel",
+      "category": "JavaScript",
+      "cover": "../assets/projects/portfolio-sophie-bluel/cover.webp",
+      "alt": "Photo de rénovation d'un bar",
+      "description": "Vous travaillez comme développeur front-end pour l’agence ArchiWebos, et vous êtes envoyé en renfort comme développeur front-end au sein d’une équipe qui travaille sur la conception du site portfolio d’une architecte d’intérieur. Après la réunion pour échanger sur le projet, Charlotte (la cheffe de projet), vous envoie en pièces jointes tout ce dont vous aurez besoin pour pouvoir réaliser vos misions, soit: le Figma du design qui vous servira à créer les nouvelles fonctionnalités, le code back-end qui vous permettra de faire persister les données et de tester les fonctionnalités, le code front-end d’origine avec la version statique de la page de l’architecte, et finalement, le Kanban pour la mission pour que vous puissiez voir les tâches qui vous sont attribuées. Vos 3 missions principales sont donc: développer la page de présentation des travaux de l'architecte (à partir du HTML fourni), développer la page de connexion de l'administrateur du site (le client) (code à créer de zéro), et développer la modale permettant d'uploader de nouveaux médias (code à créer from scratch).",
+      "mission": "Développer des pages dynamiques et interagir avec une API pour créer des fonctionnalités interactives.",
+      "competences": [
+        "Manipuler les éléments du DOM avec JavaScript.",
+        "Gérer les événements utilisateurs avec JavaScript.",
+        "Récupérer les données utilisateurs dans le JavaScript via des formulaires."
+      ],
+      "realisation": "J'ai dans un premier temps suivi l'ensemble des cours sur JavaScript qui étaient fournis par Openclassrooms, et je les ai complétée avec d'autres ressources du web, ce qui m'a permis de comprendre ce qu'étaient les variables, les fonctions, le DOM, les écouteurs d'événements, les tokens, le format JSON ou encore le format Formdata... J'ai appris comment fonctionnait une API et quel était son rôle. J'ai découvert l'utilité et le rôle de l'API Fetch, et j'ai donc utilisé sa méthode fetch (qui prend en charge plusieurs méthodes HTTP, telles que GET, POST, PUT, DELETE) pour la réalisation de mes missions. L'utilisation des différentes méthodes avec l'API Fetch m'a permis d'effectuer les requêtes HTTP nécessaires à la réalisation du site, et de traiter les réponses. Tout le développement que j'ai réalisé, à était fait de façon responsive en respectant la maquette qui m'était fournie.", 
+      "tags": ["HTML", "CSS", "JavaScript", "Figma", "API", "Swagger", "NodeJS", "GitHub"],
+      "pictures": [
+        "../assets/projects/portfolio-sophie-bluel/mock0.webp",
+        "../assets/projects/portfolio-sophie-bluel/mock1.webp",
+        "../assets/projects/portfolio-sophie-bluel/mock2.webp",
+        "../assets/projects/portfolio-sophie-bluel/mock3.webp",
+        "../assets/projects/portfolio-sophie-bluel/mock4.webp",
+        "../assets/projects/portfolio-sophie-bluel/mock5.webp",
+        "../assets/projects/portfolio-sophie-bluel/mock6.webp",
+        "../assets/projects/portfolio-sophie-bluel/mock7.webp"
+      ],
+      "github": "https://github.com/Zabidat/Sophie_Bluel"
+    },
+
+    {
+      "id": "project4",
+      "title": "Kasa",
+      "category": "React",
+      "cover": "../assets/projects/kasa/cover.webp",
+      "alt": "Logo de Kasa",
+      "description": "Kasa est spécialiste de la location entre particuliers en France depuis 10 ans et une refonte totale pour leur site a été mise en place par Laura la CTO. Vous êtes recruté par Kasa en tant que développeur front-end freelance, avec pour objectif de créer une application web de location immobilière en utilisant React.",
+      "mission": " Développer le front-end d'une application de location immobilière en utilisant Vite, React et React Router, en suivant les maquettes fournies et en utilisant des données simulées.",
+      "competences": [
+        "Initialiser une application avec Create React App.",
+        "Configurer la navigation entre les pages de l'application avec React Router.",
+        "Développer des éléments de l'interface d'un site web grâce à des composants React.",
+        "Développer une interface web avec Sass."
+      ],
+      "realisation": "J'ai suivi l'ensemble des cours Openclassrooms pour apprendre ReactJS. J'ai ensuite initialisé le projet avec CRA, et j'ai architecturé mon code. J'ai construit l'application avec une logique Single Page, et la logique de routing est gérée par React Routeur dans le fichier App.js avec la création du composant App. J'ai fait le rendu du composant App dans le fichier index.js qui se trouve à la racine du projet react: c'est index.js qui crée le point d'ancrage dans le DOM (id ROOT), soit là où sera rendue l'application. Dans cette architecture, on retrouve un dossier “components“ (qui englobe l'ensemble des composants réutilisables de l'application, chaque composant a son propre fichier css et jsx), et un dossier “pages“ (qui englobe l'ensemble des composants des pages de l'application, chaque composant page a son propre fichier css et js). Ces composants réutilisables sont rendus dans les composants pages, et ces composants pages sont rendu dans le composant App.",
+      "tags": ["React", "React-Router", "JavaScript", "Sass", "Responsive", "GitHub", "NodeJS"],
+      "pictures": [
+        "../assets/projects/kasa/mock0.webp",
+        "../assets/projects/kasa/mock1.webp",
+        "../assets/projects/kasa/mock2.webp",
+        "../assets/projects/kasa/mock3.webp",
+        "../assets/projects/kasa/mock4.webp",
+        "../assets/projects/kasa/mock5.webp",
+        "../assets/projects/kasa/mock6.webp",
+        "../assets/projects/kasa/mock7.webp"
+      ],
+      "github": "https://github.com/Zabidat/Projet-Kasa-React"
+    },
+
+    {
+      "id": "project5",
+      "title": "Mon Vieux Grimoire",
+      "category": "JavaScript",
+      "cover": "../assets/projects/print-it/cover.webp",
+      "alt": "Photo d'imagerie",
+      "description": "Vous êtes développeur back-end en freelance, et vous allez collaborer avec Kevin un développeur front-end, sur la réalisation du site “Mon vieux grimoire“. Ce site est pour un client possédant une chaîne de librairies nommée “Le Vieux Grimoire“. Ce site doit permettre aux membres d'ajouter des livres avec des notes publiques. Kevin est chargé de réaliser le front end du site, et vous, devrez développer le backend du site avec notamment la mise en place l'API, en utilisant NodeJS et son framework Express. Kevin qui a terminé le front-end du site vous envoie les spécifications techniques de l'API, et le code du front-end sur Github. De plus, il vous explique que pour que le projet soit conforme aux bonnes pratiques du Green Code, il faut qu’on prenne en compte la taille des images. Il faudra donc que dans le back-end, vous optimisiez les images qui seront envoyées par les utilisateurs.",
+      "mission": " Développez le back-end d'un site de notation de livres en utilisant Node.js, Express, et MongoDB, en mettant en place un serveur sécurisé avec des fonctionnalités CRUD et d'authentification.",
+      "competences": ["Programmer en utilisant les fondamentaux de JavaScript"],
+      "realisation": "J'ai dans un premier temps suivi l'ensemble des cours sur Openclassrooms, ce qui m'a permis de comprendre comment utiliser NodeJS et Express, comment faire une architecture de code modulaire, et comment intégrer une base de données. J'ai ensuite initialisé le projet avec NodeJS, j'ai installé Express, et j'ai créé une base de données sur MongoDB, et j'ai connecté cette DB au projet. Dans mon architecture de code, j'ai séparé la logique de routing, et la logique métier des routes, de la logique globale de l'application, pour avoir une structure modulaire. J'ai donc créé un dossier “Controller“ qui englobe la logique métier des routes, et j'ai créé un dossier “Route“ qui englobe la logique de routing des routes. Dans ces controllers, j'ai importé le modèle correspondant, et ces modèles se trouvent dans un dossier “Model“ que j'ai créé, et ils sont pour chacun d'entre eux un schéma mongoose de données pour notre base de données. Pour que le code soit encore plus modulaire, j'ai fait un dossier “Middleware“ qui englobe l'ensemble des middlewares qui feront des traitements intermédiaires sur les requêtes avant que celles-ci n'atteignent leur destination finale. J'ai aussi sécurisé l'application et la DB en utilisant différents packages, middlewares ou encore plugins (Helmet, Bcrypt, Express Mongo Sanitize, Mongoose Unique Validator...). J'ai finalement géré l'optimisation des images en créant un middleware sharp (qui utilise la bibliothèque sharp) qui a pour rôle de redimensionner les images et de les compresser.",
+      "tags": ["NodeJS", "Express", "JavaScript", "MongoDB", "CRUD", "API", "Postman", "GitHub"], 
+      "pictures": [
+        "../assets/projects/print-it/mock0.webp",
+        "../assets/projects/print-it/mock1.webp",
+        "../assets/projects/print-it/mock2.webp",
+        "../assets/projects/print-it/mock3.webp",
+        "../assets/projects/print-it/mock4.webp",
+        "../assets/projects/print-it/mock5.webp",
+        "../assets/projects/print-it/mock6.webp",
+        "../assets/projects/print-it/mock7.webp"
+      ],
+      "site": "",
+      "github": "https://github.com/Zabidat/Site_de_notation_de_livres"
+    },
+ 
+    {
+      "id": "project6",
+      "title": "Menu Maker",
+      "category": "Gestion de projet",
+      "cover": "../assets/projects/menu-maker/cover.webp",
+      "alt": "Logo du site Menu Maker by Qwenta",
+      "description": "Vous êtes développeur front-end au sein de l’agence Webgencia, et votre mission est de mener, préparer et planifier le projet de développement du site Menu Maker pour votre client Qwenta. Ce site permettra aux restaurateurs d’afficher et de mettre en page leurs menus facilement. C’est l’occasion pour vous de mettre en place une méthodologie de travail agile et de collaborer avec Soufiane le Product Owner. Soufiane vous envoie en pièces jointes ce sur quoi ils ont travaillés ces derniers jours avec l'équipe Produit, soit: la maquette desktop, le document de spécifications fonctionnelles, et le tableau des user stories. La réunion de validation et de présentation du projet avec John chef de projet chez Qwenta, a lieu dans deux semaines, et votre mission est d'aider Soufiane à préparer cette réunion. Pour cela, vous allez développer un système de veille en lien avec la réalisation du projet, et qui pourra être réutilisée dans l’équipe. En parallèle, vous allez déterminer les spécifications techniques du site Menu Maker, et organiser la gestion de projet du développement du site. Vous devrez envoyer à Soufiane avant le rendez-vous de réunion avec John: une présentation de 15 slides qui valorise votre travail de veille, les spécifications techniques de l’outil “Menu Maker”, et une présentation de la planification du projet de 15 slides, qui devra contenir le lien vers l’outil de gestion de projet configuré. Après que Soufiane ai validé votre travail, il vous faudra mettre tout cela en forme pour le présenter à John, en réalisant une présentation de 20 slides, qui devra expliquer la solution technique retenue. Cette présentation devra inclure les spécifications techniques présentées de façon visuelle (pour que John comprenne bien comment fonctionnera le site), et le plan de communication avec Qwenta durant le projet, pour déterminer quand et comment Webgencia et Qwenta communiquerons.",
+      "mission": "Planifiez le développement du site de votre client.",
+      "competences": [
+        "Mettre en place une méthode de veille technologique",
+        "Rédiger les spécifications techniques d'un projet web à partir de besoins fonctionnels",
+        "Découper une fonctionnalités en tâches pour préparer le développement",
+        "Suivre le déroulement du projet grâce à un outil de gestion de projet",
+        "Présenter la solution technique"
+      ],
+      "realisation": "J'ai dans un premier temps appris ce qu'étaient les méthodes agiles (les valeurs, les principes, les pratiques). J'ai comparé plusieurs outils de curation pour la réalisation de la veille technique, et j'ai opté pour un outil de veille personnalisable en choisissant Wakelet. Cette veille réalisée reprend l'ensemble des langages, stacks, outils et méthodes agiles, qui seront utilisés pour la réalisation de ce projet, mais aussi pour la réalisation de futurs projets. En m'appuyant sur les spécifications fonctionnelles et les user stories qui m'ont été fournies, j'ai pu réaliser les spécifications techniques de Menu Maker. Pour l'outil de gestion de projet, j'ai choisi d'utiliser Trello (un outil que je connaissais déjà), et j'ai ainsi pu, organiser les différentes tâches à réaliser, définir le nombre de développeurs nécessaires à la réalisation du projet (pair programming...), planifier les Daily Scrums de l'équipe de Webgencia ainsi que les rendez-vous qui auront lieu en viso pour les échanges entre Webgencia et Qwenta, et j'ai finalement réalisé un diagramme de Gantt pour définir la durée totale de phase développement/test du site avant de pouvoir livrer la solution finale au client Qwenta. L'ensemble des slides pour les différentes présentations, ont été réalisés avec Google Slide.",
+      "tags": ["Gestion de projet", "Méthode agile", "Veille technique", "Notion", "Wakelet","Trello"],
+      "pictures": [
+        "../assets/projects/menu-maker/mock0.webp",
+        "../assets/projects/menu-maker/mock1.webp",
+        "../assets/projects/menu-maker/mock2.webp",
+        "../assets/projects/menu-maker/mock3.webp",
+        "../assets/projects/menu-maker/mock4.webp",
+        "../assets/projects/menu-maker/mock5.webp",
+        "../assets/projects/menu-maker/mock6.webp"
+      ],
+      "github": ""
+    } 
+  ]
+   

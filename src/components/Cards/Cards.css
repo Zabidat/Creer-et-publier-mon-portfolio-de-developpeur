@@ -1,0 +1,118 @@
+.card-project {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    height: 490px;
+    margin-bottom: 80px;
+   /*  position: relative; */
+    width: 30%; 
+}
+
+/* .card-project .filter-project-card {
+     background: linear-gradient(180deg, rgba(199, 255, 6, .8), rgba(121, 24, 255, .8));
+    z-index: 2; 
+} */ 
+
+.card-project .filter-project-card, .card-project img {
+    border-radius: 20px;
+    height: auto;
+   /* position: absolute; */ 
+    width: 100%;  
+    vertical-align: middle;
+    object-fit: cover;
+   
+}
+
+.card-project hr {
+    height: 0;
+    border-color: #c7ff06;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+
+.card-project .title-and-mission {
+    color: #fff;
+    left: 50%;
+   /* position: absolute; */ 
+    text-align: center;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 100%;
+    /* z-index: 3; */ 
+} 
+
+.card-project .title-and-mission .card-title {
+    font-family: Montserrat, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+} 
+
+.card-project .title-and-mission .see-more {
+    opacity: 0;
+}
+
+.card-project .title-and-mission .mission {
+    font-family: Montserrat, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 0 15px;
+}
+
+.card-project .title-and-mission .tags {
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 0.5rem;
+    margin-top: 1.25rem; 
+}
+
+
+
+
+
+
+.card-project .work-link {
+    display: flex;
+    justify-content: space-between; 
+    gap: 1em;
+    align-items: center; 
+    cursor: pointer; 
+}
+
+
+/****** Media queries ***********/
+/* Medium devices (tablets, less/equal than 1024px) */ 
+@media screen and (max-width: 1250px)
+{
+    .card-project{
+        width: 32%; 
+    }
+}
+
+@media screen and (max-width: 576px)
+{
+    .card-project{
+        height: 290px; 
+        width: 100%; 
+    }
+}
+
+@media screen and (max-width: 999px)
+{
+    .card-project{
+        margin-bottom: 25px; 
+        width: 48.5%; 
+    }
+}
+
+@media screen and(max-width: 999px) {
+    .card-project .title-and-mission .see-more {
+        color: #c7ff06;
+        font-size: 18px;
+        opacity: 1;
+        padding: 10px 0;
+    } 
+}
+

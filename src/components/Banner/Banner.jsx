@@ -4,12 +4,14 @@ function Banner (props)   // Prends comme argument en entrée Props
 {
    const {image, Texte} =props 
     return (
+
         <section className="banner-section">
 
             <div className="banner-container">
-                <img className="img-banner" alt="Bannière" src={image} width={1620} height={220}></img>
-                <div className="container-combre"></div>
+
+                <img className="img-banner" alt="Bannière" src={image} width={1620} height={220}></img> 
                 <h1 className="title-banner">{Texte}</h1> 
+
             </div>
 
         </section>

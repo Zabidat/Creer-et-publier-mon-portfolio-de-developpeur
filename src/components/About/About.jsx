@@ -30,14 +30,14 @@ function About (props)   // Prends comme argument en entrée Props
                     <div className="about-content">
                         <p>
                             Je m'appelle 
-                            <span> Zabidat Abdallah </span>
-                            et je suis <span> développeuse web, </span>
+                            <strong> Zabidat Abdallah </strong> 
+                            et je suis <strong> développeuse web, </strong>
                             passionnée de programmation, j'aime découvrir de nouvelles technologies 
                             et relever toujours plus de défis.
                         </p>
                         <p>
                             Étant spécialiste dans 
-                            <span> la création des sites web sur mesure, le référencement SEO et la modernisation de sites existants. </span>
+                            <strong> la création des sites web sur mesure, le référencement SEO et la modernisation de sites existants. </strong>
                             Mon objectif est de crée des sites qui répondent parfaitement aux besoins de clients,
                              tout en optimisant leur visibilité en ligne grâce à des techniques avancées de référencement. 
                         </p>
@@ -51,7 +51,6 @@ function About (props)   // Prends comme argument en entrée Props
                         <p>Au cours de cette fromation, j'ai pu acquérir différentes compétences techniques en matière de développement front-end et back-end,
                              grâce à la réalisation de plusieurs projets tirés de cas concrets d'entreprises.</p>
                         <p>L'ensemble des projets que j'ai réalisé sont présenté dans  
-                            <Link className="about-link-training-and-contact" title="Voir le portfolio" to="/Portfolio"> ma page portfolio.</Link>
                         </p>
                         <p>En tant que développeuse web, je suis sérieuse, assidue et toujours prête à relever de nouveaux défis, 
                              j'incarne la transition d'une chargée clientèle vers une développeuse passionnée. <em>Ma philosophie ? </em> 
@@ -59,8 +58,6 @@ function About (props)   // Prends comme argument en entrée Props
                             </p>
                         <p></p>
                     </div>
-
-                    <Link to="/Portfolio" className="button-link-in-about-section" title="Voir les projets">Voir le portfolio</Link>
 
                 </div>
 

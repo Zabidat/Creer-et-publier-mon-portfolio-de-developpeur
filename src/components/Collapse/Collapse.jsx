@@ -48,13 +48,13 @@ function Collapse (props) {
 
                                     )}
 
-                                </div>
+                                </div> 
 
                         } 
 
-                     </div>
+                    </div>
 
-                </div>
+            </div>
 
 
 
