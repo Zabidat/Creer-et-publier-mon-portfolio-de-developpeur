@@ -47,7 +47,7 @@ const Footer = ({ mode }) => {
     <StyledFooter
       $mode={mode}
       className="d-flex align-items-center justify-content-center p-2"
-    >
+    > 
       <SocialLinks />
     </StyledFooter>
   );

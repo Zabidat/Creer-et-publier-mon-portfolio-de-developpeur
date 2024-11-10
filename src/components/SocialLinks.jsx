@@ -13,6 +13,7 @@ const StyledSocialLinks = styled.div`
   a {
     margin: 0 1rem;
   }
+  
 `;
 // #endregion
 

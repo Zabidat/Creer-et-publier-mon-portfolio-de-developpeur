@@ -70,6 +70,7 @@ const propTypes = {
 };
 
 const ProjectCard = ({ demo, description, image, name, url }) => {
+  console.log(demo);
   return (
     <StyledCard>
       <Card>
@@ -82,7 +83,7 @@ const ProjectCard = ({ demo, description, image, name, url }) => {
         <Card.Body className="overflow-auto text-center">
           <Card.Title>{name}</Card.Title>
           <Card.Text>{description}</Card.Text>
-          {demo !== (undefined && null && "") ? (
+          {demo !== null ? (
             <Card.Link href={demo}>
               {"Live Demo "}
               <Icon icon="icon-park-outline:code-computer" />

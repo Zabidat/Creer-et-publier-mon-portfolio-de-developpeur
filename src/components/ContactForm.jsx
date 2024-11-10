@@ -22,7 +22,7 @@ const StyledForm = styled.div`
 `;
 // #endregion
 
-// #region component
+// #region component : validation for form
 const ContactForm = () => {
   const [isValidated, setIsValidated] = React.useState(false);
   const [isProcessing, setIsProcessing] = React.useState(false);

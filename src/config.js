@@ -32,7 +32,7 @@ export const navLogo = null;
 
 /* Main
  ************************************************************** 
-  Add a custom blog icon or update the hero images for the Main section.
+  Add a custom blog i con or update the hero images for the Main section.
 */
 export const Blog = null;
 
@@ -118,10 +118,15 @@ export const skillData = [
     skill: <Icon icon="bi:filetype-scss" className="display-4" />,
     name: "SCSS",
   },
+  {
+    id: 14,
+    skill: <Icon icon="skill-icons:expressjs-dark" className="display-4" />,
+    name: "Express Js",
+  },
 ];
 
 // Resume link (string - "https://YourResumeUrl") - I am using CloudFront to share my resume (https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html)
-export const resume = "https://drive.google.com/file/d/1AEd7U7R5a4TMeplelwy3i6j0O1w-fET0/view?usp=sharing";
+export const resume = "https://drive.google.com/file/d/1mUwx-JN8bHvTmRFCUiYmr-zVJM3-pa5E/view?usp=drive_link";
 
 /* Projects
  ************************************************************** 
