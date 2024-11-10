@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Zabidat/static/css/main.372dc58a.css",
+    "main.js": "/Zabidat/static/js/main.ef2e939e.js",
+    "static/media/hero-dark.jpg": "/Zabidat/static/media/hero-dark.37f2556d620821979e99.jpg",
+    "static/media/MonVieuxGrimoireFrontEnd.png": "/Zabidat/static/media/MonVieuxGrimoireFrontEnd.0abd3c4f447253d47ad5.png",
+    "static/media/hero-light.jpg": "/Zabidat/static/media/hero-light.78b77836d8aee4d7d3cb.jpg",
+    "static/media/SophieBluel.png": "/Zabidat/static/media/SophieBluel.793aa76e49f514b33de1.png",
+    "static/media/NinaCarducci.png": "/Zabidat/static/media/NinaCarducci.e580a35d8711eb919107.png",
+    "static/media/APIEntreDeuxApplications.png": "/Zabidat/static/media/APIEntreDeuxApplications.c2950a7666e516bd72d8.png",
+    "static/media/CreerMonPortFolio.png": "/Zabidat/static/media/CreerMonPortFolio.cf0338f9d88423674b42.png",
+    "static/media/FrontendSitedeNotation.png": "/Zabidat/static/media/FrontendSitedeNotation.53d207c90f05dd9cd541.png",
+    "static/media/ProjetKasa.png": "/Zabidat/static/media/ProjetKasa.b50515adc5618eb63aa5.png",
+    "static/media/MonvieuxGrimoire.png": "/Zabidat/static/media/MonvieuxGrimoire.d64f707021031d8ae687.png",
+    "static/media/logoBoki.png": "/Zabidat/static/media/logoBoki.b422367164308d647da2.png",
+    "service-worker.js": "/Zabidat/service-worker.js",
+    "static/media/GH.svg": "/Zabidat/static/media/GH.b9e9a9aa6f05e9dfe5dcb8991bda3e4d.svg",
+    "static/media/defaultNavLogo.svg": "/Zabidat/static/media/defaultNavLogo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/logo.svg": "/Zabidat/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Zabidat/index.html",
+    "main.372dc58a.css.map": "/Zabidat/static/css/main.372dc58a.css.map",
+    "main.ef2e939e.js.map": "/Zabidat/static/js/main.ef2e939e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.372dc58a.css",
+    "static/js/main.ef2e939e.js"
+  ]
+}
