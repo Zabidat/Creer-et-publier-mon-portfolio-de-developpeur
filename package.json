@@ -1,6 +1,6 @@
 {
   "name": "zabidatportfolio",
-  "homepage": "https://Zabidat.github.io/portfolio",
+  "homepage": "https://Zabidat.github.io/index.html",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
@@ -54,7 +54,6 @@
       "last 1 safari version"
     ]
   },
-  
   "description": "[![GitHub Repo stars]()",
   "main": "index.js",
   "author": "Zabidat Abdallah",
