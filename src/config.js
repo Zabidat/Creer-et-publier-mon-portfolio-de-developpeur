@@ -45,7 +45,7 @@ export { HeroDark as Dark };
   Add a second paragraph for the about me section.
 */
 export const moreInfo1 =
-  "Je m'appelle Zabidat Abdallah et je suis développeuse web, passionnée de programmation, j'aime découvrir de nouvelles technologies et relever toujours plus de défis. Étant spécialiste dans la création des sites web sur mesure, le référencement SEO et la modernisation de sites existants. Mon objectif est de crée des sites qui répondent parfaitement aux besoins de client, tout en optimisant leur visibilité en ligne grâce à des techniques avancées de référencement.Le monde du web m'a toujours passionée, et une allergie au chargée clientèle, domaine dans lequel j'ai travaillé plusieurs années, m'a orientée vers une nouvelle passion : le Développement Web, dont j'ai suivi une formation professionnelle chez Openclassrooms, pour ainsi devenir développeuse web.";
+  "Je m'appelle Zabidat Abdallah et je suis développeuse web, passionnée de programmation, j'aime découvrir de nouvelles technologies et relever toujours plus de défis. Étant spécialiste dans la création des sites web sur mesure, le référencement SEO et la modernisation de sites existants. Mon objectif est de crée des sites qui répondent parfaitement aux besoins de client, tout en optimisant leur visibilité en ligne grâce à des techniques avancées de référencement. Le monde du web m'a toujours passionée, et une allergie au chargée clientèle, domaine dans lequel j'ai travaillé plusieurs années, m'a orientée vers une nouvelle passion : le Développement Web, dont j'ai suivi une formation professionnelle chez Openclassrooms, pour ainsi devenir développeuse web.";
   export const moreInfo2 = 
   "j'ai pu acquérir différentes compétences techniques en matière de développement front-end et back-end, grâce à la réalisation de plusieurs projets tirés de cas concrets d'entreprises. L'ensemble des projets que j'ai réalisé sont présenté dans En tant que développeuse web, je suis sérieuse, assidue et toujours prête à relever de nouveaux défis, j'incarne la transition d'une chargée clientèle vers une développeuse passionnée. Ma philosophie ? De la chargée clientèle à la programmation, il n'y a qu'un pas.";
 /* Skills
@@ -132,7 +132,7 @@ export const resume = "https://drive.google.com/file/d/1mUwx-JN8bHvTmRFCUiYmr-zV
  ************************************************************** 
   List the repo names (string - "your-repo-name") you want to include (they will be sorted alphabetically). If empty, only the first 3 will be included.
 */
-export const filteredProjects = ["example-1", "Project_Booki", "Site_de_notation_de_livres","Nina-Carducci", "Mon-Vieux-Grimoire", "API_HTTP_Project", "Creer-et-publier-mon-portfolio-de-developpeur","Projet-Kasa-React", "Site_de_notation_de_livres-Front-End","Sophie_Bluel" ];
+export const filteredProjects = ["example-1", "Project_Booki", "Site_de_notation_de_livres","Nina-Carducci", "Mon-Vieux-Grimoire", "API_HTTP_Project", "portfolio","Projet-Kasa-React", "Site_de_notation_de_livres-Front-End","Sophie_Bluel" ];
 
 // Replace the defualt GitHub image for matching repos below (images imported above - lines 7-8)
 export const projectCardImages = [
@@ -163,7 +163,7 @@ export const projectCardImages = [
   },
 
   {
-    name: "Creer-et-publier-mon-portfolio-de-developpeur",
+    name: "portfolio",
     image: CreerMonPortfolio, 
   },
 
