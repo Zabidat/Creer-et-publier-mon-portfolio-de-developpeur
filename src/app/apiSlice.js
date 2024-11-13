@@ -5,11 +5,12 @@ import { githubUsername } from "../config";
 
 //Create API to handle the operation between github and portfolio
 export const apiSlice = createApi({
+                              //Configurer Api github
   reducerPath: "api",
   baseQuery: fetchBaseQuery({ baseUrl: "https://api.github.com" }),
   endpoints: (builder) => ({
     // https://docs.github.com/en/rest/users/users?apiVersion=2022-11-28#get-a-user
-    //Query get information about user in github
+    //Query : Get information about user in github
     getUsers: builder.query({
       query: () => `/users/${githubUsername}`,
     }),
@@ -19,7 +20,7 @@ export const apiSlice = createApi({
       query: () => `/users/${githubUsername}/social_accounts`,
     }),
     // https://docs.github.com/en/rest/repos/repos?apiVersion=2022-11-28#list-repositories-for-a-user
-     //Query get list of project  in github
+     //Query : Get list of project  in github
     getProjects: builder.query({
       query: () => `/users/${githubUsername}/repos`,
     }),

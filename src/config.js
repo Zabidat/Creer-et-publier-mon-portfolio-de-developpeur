@@ -126,7 +126,7 @@ export const skillData = [
 ];
 
 // Resume link (string - "https://YourResumeUrl") - I am using CloudFront to share my resume (https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html)
-export const resume = "https://drive.google.com/file/d/1mUwx-JN8bHvTmRFCUiYmr-zVJM3-pa5E/view?usp=drive_link";
+export const resume = "https://drive.google.com/file/d/17ZhVfXgW3yEz0LbhPzmUvKFcZDRrFzo-/view?usp=drive_link";
 
 /* Projects
  ************************************************************** 
