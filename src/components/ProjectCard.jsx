@@ -38,6 +38,11 @@ const StyledCard = styled.div`
       }
     }
 
+    .marg-bottom {
+      margin-bottom: 20px;
+    }
+
+
     .card-footer {
       border-top: var(--border);
       background: ${({ theme }) =>
@@ -83,38 +88,43 @@ const ProjectCard = ({ demo, description, image, name, url }) => {
         <Card.Body className="overflow-auto text-center">
           <Card.Title>{name}</Card.Title>
           <Card.Text>{description}</Card.Text>
-          
-          {name === "Project_Booki" ?  <Card.Text> #Problème rencontré :
-              Le problème que j’ai rencontré était de régler la largeur de certaines conteneur en utilisant la propriété flex pour passer d’une version à une autre, 
-              étant donné que c’était la première fois que je manipulais les propriétés d’alignement CSS Flexbox.  
-              <hr></hr>
-              <hr></hr>
-            #Solution pour résoudre le problème :
-            Pour résolver le problème, j’ai fait des recherches sur le net (site web: developer.mozilla.org et geeksforgeeks.org) 
+
+          {name === "Project_Booki" ?  <Card.Text> <br></br><div className=" overflow-auto text-center marg-bottom"><strong> Problème rencontré : <br></br><br></br> </strong>
+                Le problème que j’ai rencontré était de régler la largeur de certaines conteneur en utilisant la propriété flex pour passer d’une version à une autre, 
+              étant donné que c’était la première fois que je manipulais les propriétés d’alignement CSS Flexbox.</div><br></br>
+            
+            <div className=" overflow-auto text-center marg-bottom" ><strong>Solution pour résoudre le problème  : <br></br><br></br></strong>
+                Pour résolver le problème, j’ai fait des recherches sur le net(site web: developer.mozilla.org et geeksforgeeks.org)
             et j’ai également discuter avec mon mentor pour écouter ses conseils judicieux afin de trouver la solution adéquate à mon problème :
-            De ce fait, j’ai utilisé la propriété flex-wrap avec la valeur wrap, suivi du propriété flex-direction: column; 
-            ce qui permet aux éléments d’aller à la ligne lorsque la largeur du contenur est dépassée. 
+            De ce fait,j’ai utilisé la propriété flex-wrap avec la valeur wrap, suivi du propriété flex-direction: column;  
+            ce qui permet aux éléments d’aller à la ligne lorsque la largeur du contenur est dépassée. </div> 
           </Card.Text> : null}
-
-          {name === "Projet-Kasa-React" ?  <Card.Text> # Problème rencontré :
+           
+        { name === "Projet-Kasa-React" ?   <Card.Text> <br></br><div  className=" overflow-auto text-center marg-bottom" >
+            <strong>Problème rencontré : <br></br><br></br></strong>  
             Concernant ce projet, le problème que j’ai rencontré était de comprendre la logique des Hooks et gérer le state component.  
-            <hr></hr>
-            <hr></hr> 
-            # Solution pour résoudre le problème :
-            Pour résolver le problème j’ai lu plusieurs articles et regarder des vidéos sur youtube pour pouvoir bien comprendre et utiliser les hooks, 
-            ce qui a allégé mon code en le rendant plus facile à maintenir et en gagnant en lisibilité. Grâce aux recherches effectuées,
-           j’ai acquéri des compétences sur les Hooks comme le useState Hook qui permet de suivre l’état d’un composant de fonction. 
+          </div>
 
-          </Card.Text> : null 
+          <div  className=" overflow-auto text-center marg-bottom">
+          <strong> Solution pour résoudre le problème : <br></br><br></br> </strong>  
+          Pour résolver le problème j’ai lu plusieurs articles et regarder des vidéos sur youtube pour pouvoir bien comprendre et utiliser les hooks, 
+          ce qui a allégé mon code en le rendant plus facile à maintenir et en gagnant en lisibilité. Grâce aux recherches effectuées, 
+          j’ai acquéri des compétences sur les Hooks comme le useState Hook qui permet de suivre l’état d’un composant de fonction. 
 
-          }
+          </div>
+
+        </Card.Text> : null 
+
+        }
+         
           
-          {demo !== null ? (
+          {/*demo !== null ? (
             <Card.Link href={demo}>
               {"Live Demo "}
               <Icon icon="icon-park-outline:code-computer" />
             </Card.Link>
-          ) : null}
+          ) : null*/ } 
+
         </Card.Body>
         <Card.Footer className="text-center">
           <Card.Link href={url}>
