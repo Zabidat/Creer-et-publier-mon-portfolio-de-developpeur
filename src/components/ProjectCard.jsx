@@ -97,7 +97,13 @@ const ProjectCard = ({ demo, description, image, name, url }) => {
                 Pour résolver le problème, j’ai fait des recherches sur le net(site web: developer.mozilla.org et geeksforgeeks.org)
             et j’ai également discuter avec mon mentor pour écouter ses conseils judicieux afin de trouver la solution adéquate à mon problème :
             De ce fait,j’ai utilisé la propriété flex-wrap avec la valeur wrap, suivi du propriété flex-direction: column;  
-            ce qui permet aux éléments d’aller à la ligne lorsque la largeur du contenur est dépassée. </div> 
+            ce qui permet aux éléments d’aller à la ligne lorsque la largeur du contenur est dépassée. </div> <br></br> 
+
+            <div className="overflow-auto text-center marg-bottom">
+              <strong>Tehnos ou compétences utilisés :  <br></br><br></br> </strong> 
+                "HTML", "CSS", "Responsive", "VSCode", "Figma"
+            </div>
+
           </Card.Text> : null}
            
         { name === "Projet-Kasa-React" ?   <Card.Text> <br></br><div  className=" overflow-auto text-center marg-bottom" >
@@ -111,13 +117,19 @@ const ProjectCard = ({ demo, description, image, name, url }) => {
           ce qui a allégé mon code en le rendant plus facile à maintenir et en gagnant en lisibilité. Grâce aux recherches effectuées, 
           j’ai acquéri des compétences sur les Hooks comme le useState Hook qui permet de suivre l’état d’un composant de fonction. 
 
+          </div> <br></br>
+
+          <div className="overflow-auto text-center marg-bottom">
+              <strong>Tehnos ou compétences utilisés :  <br></br><br></br> </strong> 
+              "React", "React-Router", "JavaScript", "Sass", "Responsive", "GitHub", "NodeJS"
           </div>
 
         </Card.Text> : null 
 
         }
          
-          
+       
+        
           {/*demo !== null ? (
             <Card.Link href={demo}>
               {"Live Demo "}
